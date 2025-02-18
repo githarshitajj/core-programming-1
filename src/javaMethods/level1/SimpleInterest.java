@@ -9,6 +9,7 @@ public class SimpleInterest {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         //taking rate, time and principle
+        System.out.println("Enter rate, principle, time respectively: ");
         double rate =sc.nextDouble();
         double principle = sc.nextDouble();
         int time=sc.nextInt();
